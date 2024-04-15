@@ -4,7 +4,7 @@ import './AddList.css';
 
 const AnnouncementList = () => {
   const { announcements, deleteAnnouncement, updateAnnouncement } = useAdContext();
-  const [editId, setEditId] = useState(null); 
+  const [editId, setEditId] = useState(null);
   const [editTitle, setEditTitle] = useState('');
   const [editDescription, setEditDescription] = useState('');
 
@@ -26,9 +26,11 @@ const AnnouncementList = () => {
     }
   };
 
+
+
   return (
     <div class="container">
-      <h2>Add List</h2>
+
       <ul>
         {announcements.map((announcement) => (
           <li key={announcement.id}>
