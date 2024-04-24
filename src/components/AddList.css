@@ -40,7 +40,7 @@ input[type="text"] {
     width: calc(100% - 20px); /* Adjusted width */
     padding: 12px; /* Increased padding */
     margin-bottom: 20px; /* Adjusted margin-bottom */
-    border: 2px solid #55a049; /* Changed border color and thickness */
+    border: 1px solid #55a049; /* Changed border color and thickness */
     border-radius: 8px; /* Adjusted border radius */
     font-size: 18px; /* Increased font size */
     color: #333; /* Text color */
@@ -66,12 +66,3 @@ button:hover {
     background-color: #36652e;
 }
 
-
-/*.buttons-container {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.buttons-container button {*/
-/*    margin-left: 10px;*/
-/*}*/
